@@ -1,0 +1,39 @@
+body {
+	background-color: #DDDDDD;
+	color: black;
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	font-size: 17px;
+	font-weight: 300;
+	overflow-x: hidden;
+}
+
+.tm-img-gallery-container {
+	max-width: 200px;
+    margin: 0 auto;
+}
+
+h1 {
+  color: blue;
+  font-family: arial;
+  font-size: 300%;
+
+}
+p  {
+  color: green;
+  font-family: arial;
+  font-size: 200%;
+}
+
+}
+h2  {
+  color: black;
+  font-family: arial;
+  font-size: 100%;
+}
+.grid-item {
+	margin-bottom: 20px;
+	padding-left: 1px;
+	padding-right: 1px;
+	float: left;
+	width: 100%;
+}

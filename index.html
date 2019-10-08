@@ -16,8 +16,8 @@ and is wrapped around the whole page content, except for the footer in this exam
 
 <!-- Header -->
 <header class="w3-container w3-center w3-padding-32"> 
-  <h1><b>The U.S. Constitution</b></h1>
-  <p>Winston Delgado blog<span class="w3-tag">
+  <h1><b>Winston Delgado blog</b></h1>
+  <h2>The U.S. Constitution<span class="w3-tag">
 </header>
 
 <!-- Grid -->
@@ -33,16 +33,18 @@ and is wrapped around the whole page content, except for the footer in this exam
       <h5>Significance, <span class="w3-opacity">September, 28, 2019</span></h5>
     </div>
 
+    
+
     <div class="w3-container">
       <p>by every estimate, the birthplace of the United States. It was within its walls that the Declaration of Independence was adopted.
 		  It was here that the Constitution of the United States was debated, drafted and signed. That document is the oldest federal constitution 
 		  in existence and was framed by a convention of delegates from 12 of the original 13 colonies.</p>
       <div class="w3-row">
         <div class="w3-col m8 s12">
-          <p><button class="w3-button w3-padding-large w3-white w3-border"><b>READ MORE »</b></button></p>
+          
         </div>
         <div class="w3-col m4 w3-hide-small">
-          <p><span class="w3-padding-large w3-right"><b>Comments  </b> <span class="w3-tag">0</span></span></p>
+          
         </div>
       </div>
     </div>
@@ -51,21 +53,24 @@ and is wrapped around the whole page content, except for the footer in this exam
 
   <!-- Blog entry -->
   <div class="w3-card-4 w3-margin w3-white">
-  <img src="/w3images/bridge.jpg" alt="Norway" style="width:100%">
+  
     <div class="w3-container">
-      <h3><b>BLOG ENTRY</b></h3>
+      <h3><b>The Constitution</b></h3>
       <h5>The why, <span class="w3-opacity">September, 28, 2019</span></h5>
     </div>
 
+ 
     <div class="w3-container">
       <p>To form a more perfect union, delegates devised a plan for a stronger federal government with three branches: executive, 
 		  legislative and judicial, along with a system of checks and balances to ensure no single branch would have too much power..</p>
       <div class="w3-row">
         <div class="w3-col m8 s12">
-          <p><button class="w3-button w3-padding-large w3-white w3-border"><b>READ MORE »</b></button></p>
+          
+          <button onclick="window.location.href = 'Documents/TheUSConstitution.pdf' ;">Full Document</button>
+
         </div>
         <div class="w3-col m4 w3-hide-small">
-          <p><span class="w3-padding-large w3-right"><b>Comments  </b> <span class="w3-badge">2</span></span></p>
+          <p><span class="w3-padding-large w3-right"><b>    </b> <span class="w3-badge">   </span></span></p>
         </div>
       </div>
     </div>
@@ -73,16 +78,78 @@ and is wrapped around the whole page content, except for the footer in this exam
 <!-- END BLOG ENTRIES -->
 </div>
 
+
+
 <!-- Introduction menu -->
 <div class="w3-col l4">
   <!-- About Card -->
   <div class="w3-card w3-margin w3-margin-top">
-  <img src="/w3images/avatar_g.jpg" style="width:100%">
+ 
     <div class="w3-container w3-white">
       <h4><b>The writer</b></h4>
       <p>Because my civil duty to understand the importance of the Constitution and make people aware of it's significance</p>
     </div>
   </div><hr>
+
+  <form action="action_page.php" method="post">
+    <div class="imgcontainer">
+      
+    </div>
+    <form action="action_page.php" style="border:1px solid rgb(128, 127, 127)">
+    <div class="container">
+      <label for="uname"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+      <br>
+  
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+  
+      <button type="submit">Login</button>
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+    </div>
+    <br>
+    <div class="container" style="background-color:#f1f1f1">
+      <button type="button" class="cancelbtn">Cancel</button>
+      <span class="psw">Forgot <a href="#">password?</a></span>
+      <br>
+    </div>
+  </form>
+
+<br>
+  <form action="action_page.php" style="border:1px solid rgb(128, 127, 127)">
+    <div class="container">
+      
+      <h6>Sign Up</h6>
+      <p>Please fill in this form to create an account.</p>
+        
+      <label for="email"><b>Email</b></label>
+      <input type="text" placeholder="Enter Email" name="email" required>
+      <br>
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+      <br>
+
+      <label for="psw-repeat"><b>Repeat Password</b></label>
+      <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+  
+      <label>
+        <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+      </label>
+  
+      <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+  
+      <div class="clearfix">
+        <button type="button" class="cancelbtn">Cancel</button>
+        <button type="submit" class="signupbtn">Sign Up</button>
+      </div>
+    </div>
+  </form>
+  
+
+
   
   <!-- Posts -->
   <div class="w3-card w3-margin">
@@ -91,43 +158,116 @@ and is wrapped around the whole page content, except for the footer in this exam
     </div>
     <ul class="w3-ul w3-hoverable w3-white">
       <li class="w3-padding-16">
-        <img src="/w3images/workshop.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
-        <span class="w3-large">A</span><br>
-        <span>A</span>
+        <img src="images/GeorgeWashington.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+        <span class="w3-medium">George Washington</span><br>
+        <span>"Should the States reject this excellent Constitution, the probability is, an opportunity will never again offer to cancel another in peace -- the next will be drawn in blood" 
+          </span>
       </li>
       <li class="w3-padding-16">
-        <img src="/w3images/gondol.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
-        <span class="w3-large">B</span><br>
-        <span>B</span>
+        <img src="images/WillRogers.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+        <span class="w3-medium">Will Rogers</span><br>
+        <span>"Our constitution protects aliens, drunks and U.S. Senators"</span>
       </li> 
       <li class="w3-padding-16">
-        <img src="/w3images/skies.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
-        <span class="w3-large">C</span><br>
-        <span>C</span>
+        <img src="images/RichardPryor.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+        <span class="w3-medium">Richard Pryor</span><br>
+        <span>"What I am for is justice for everyone, just like it says in the Constitution"</span>
       </li>   
       <li class="w3-padding-16 w3-hide-medium w3-hide-small">
-        <img src="/w3images/rock.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
-        <span class="w3-large">D</span><br>
-        <span>D</span>
+        <img src="images/AbrahamLincoln.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+        <span class="w3-medium">Abraham Lincoln</span><br>
+        <span>"We the people are the rightful masters of both Congress and the courts, not to overthrow the Constitution but to overthrow the men who pervert the Constitution    "</span>
       </li>  
     </ul>
   </div>
   <hr> 
- 
+
+   
   <!-- Labels / tags -->
   <div class="w3-card w3-margin">
     <div class="w3-container w3-padding">
-      <h4>Tags</h4>
+      <h4>More</h4>
     </div>
     <div class="w3-container w3-white">
-    <p><span class="w3-tag w3-black w3-margin-bottom">Facts</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">History</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Other constitutions</span>
-      <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Landmarks</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Key People</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Resources</span>
-      <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Dscussion</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Missinformation</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">For Kids</span>
-      <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Who's talking</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Documents</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">For Adults</span>
-      <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Today's topic</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">News</span>
+    <p><span class="w3-tag w3-black w3-margin-bottom">Facts</span>
+      <html>
+<head>
+<style>
+.button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+</style>
+</head>
+<body>
+
+</body>
+</html>
+      
+<html>
+<body>
+
+
+
+<button onclick="window.location.href = 'Documents/History.pdf' ;">History</button>
+<button onclick="window.location.href = 'Documents/KeyPeople.pdf' ;">Key People</button>
+<button onclick="window.location.href = 'Documents/History.pdf' ;">Related Documents</button>
+<button onclick="window.location.href = 'Documents/News.pdf' ;">News</button>
+<button onclick="window.location.href = 'Documents/VaticanConstitution.pdf' ;">Compare this Constitution</button>
+
+
+</body>
+</html>      
+        
     </p>
     </div>
   </div>
+
+
+  <div class="w3-container w3-white">
+    <h4><b>For the Contributors</b></h4>
+    <p>Your intelectual input and donations will help maintaining this site.  Click here to complete form</p>
+
+    <html>
+<body>
+
+<p>Click the button to open a new browser window.</p>
+
+<button onclick="myFunction()">Here</button>
+
+<script>
+function myFunction() {
+  window.open("https://www.w3schools.com");
+}
+</script>
+
+</body>
+</html>
+  </div>
+</div><hr>
+  
+
+  <!DOCTYPE html>
+<html>
+<head>
+<script>
+function openWin() {
+  window.open("https://www.w3schools.com");
+}
+</script>
+</head>
+<body>
+
+</body>
+</html>
   
 <!-- END Introduction Menu -->
 </div>
@@ -140,9 +280,7 @@ and is wrapped around the whole page content, except for the footer in this exam
 
 <!-- Footer -->
 <footer class="w3-container w3-dark-grey w3-padding-32 w3-margin-top">
-  <button class="w3-button w3-black w3-disabled w3-padding-large w3-margin-bottom">Previous</button>
-  <button class="w3-button w3-black w3-padding-large w3-margin-bottom">Next »</button>
-  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+  
 </footer>
 
 </body>
